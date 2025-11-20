@@ -1,0 +1,10 @@
+{
+  "title": "Sitio web multilingüe con verificación por OTP",
+  "description": "Elige cualquier idioma abajo. Para algunos idiomas verificaremos tu correo electrónico con un código OTP antes de cambiar.",
+  "current_language": "Idioma actual",
+  "sample_content_title": "Contenido de ejemplo de la página",
+  "sample_paragraph": "Este es un párrafo de demostración para mostrar cómo cambia el texto del sitio cuando cambias entre inglés, hindi, español, portugués, chino y francés.",
+  "otp_title": "Introduce el OTP para confirmar el cambio de idioma",
+  "cancel": "Cancelar",
+  "verify": "Verificar"
+}

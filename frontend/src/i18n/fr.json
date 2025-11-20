@@ -1,0 +1,10 @@
+{
+  "title": "Site multilingue avec vérification par code OTP",
+  "description": "Choisissez une langue ci‑dessous. Pour certaines langues, nous vérifierons votre adresse e‑mail avec un code OTP avant de changer.",
+  "current_language": "Langue actuelle",
+  "sample_content_title": "Contenu d’exemple de la page",
+  "sample_paragraph": "Ceci est un paragraphe de démonstration pour montrer comment le texte du site change lorsque vous passez de l’anglais au hindi, à l’espagnol, au portugais, au chinois et au français.",
+  "otp_title": "Saisissez le code OTP pour confirmer le changement de langue",
+  "cancel": "Annuler",
+  "verify": "Vérifier"
+}

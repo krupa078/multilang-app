@@ -1,0 +1,10 @@
+{
+  "title": "Multi-language website with OTP verification",
+  "description": "Choose any language below. For some languages we will verify your email or mobile number using an OTP before switching.",
+  "current_language": "Current language",
+  "sample_content_title": "Sample page content",
+  "sample_paragraph": "This is a demo paragraph to show how your website text will change when you switch between English, Hindi, Spanish, Portuguese, Chinese and French.",
+  "otp_title": "Enter OTP to confirm language change",
+  "cancel": "Cancel",
+  "verify": "Verify"
+}
