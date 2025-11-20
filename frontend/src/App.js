@@ -57,7 +57,7 @@ function App() {
 
       if (res.ok && data.requiresOtp) {
         setPendingLang(lang);
-        setOtp("");
+        setOtp("data.otp");
         setOtpChannel(data.channel);
         setShowOtpModal(true);
       } else if (res.ok && !data.requiresOtp) {

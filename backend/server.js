@@ -115,6 +115,7 @@ app.post("/api/request-language-change", (req, res) => {
   res.json({
     requiresOtp: true,
     channel,
+    otp,
     message: `OTP sent via ${channel}`
   });
 });
