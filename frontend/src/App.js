@@ -26,7 +26,7 @@ function App() {
 
   useEffect(() => {
     // Load user from backend
-    fetch("http://localhost:5000/api/user/1")
+    fetch("https://multilang-app-ozqd.onrender.com/api/user/1")
       .then((res) => res.json())
       .then((data) => {
         setUser(data);
@@ -47,7 +47,7 @@ function App() {
     if (lang === currentLang) return;
 
     try {
-      const res = await fetch("http://localhost:5000/api/request-language-change", {
+      const res = await fetch("https://multilang-app-ozqd.onrender.com/api/request-language-change", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId: user.id, newLanguage: lang }),
@@ -85,7 +85,7 @@ function App() {
     setStatus({ type: "", message: "" });
 
     try {
-      const res = await fetch("http://localhost:5000/api/verify-language-otp", {
+      const res = await fetch("https://multilang-app-ozqd.onrender.com/api/verify-language-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId: user.id, otp }),
