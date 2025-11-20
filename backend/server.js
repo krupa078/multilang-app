@@ -6,7 +6,10 @@ const PORT = 5000;
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: [
+    "http://localhost:3000",
+    "https://multilang-app-iota.vercel.app"
+  ],
   credentials: true
 }));
 app.use(express.json());
