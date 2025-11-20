@@ -11,8 +11,8 @@ const LANG_LABELS = {
   fr: "French",
 };
 
-const EMAIL_LANGS = ["fr", "es", "zh"];
-const MOBILE_LANGS = ["hi", "pt"];
+const EMAIL_LANGS = ["fr"]; // French = Email OTP
+const MOBILE_LANGS = ["en", "hi", "es", "pt", "zh"]; // All others = Mobile OTP
 
 function App() {
   const { t } = useTranslation();
